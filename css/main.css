@@ -8,3 +8,112 @@
     margin: auto;
     padding: 0 15px;
 } */
+.bg_grey{
+        /* background-color: lawngreen; */
+    background-color:#f3f5f9 ;
+}
+main *{
+    /* border: 1px solid red; */
+}
+main h4{
+    color:  rgb(91, 105, 135);
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px 0;
+}
+/****** section CUSTUMERS_LOGO */
+main .logos {
+    width: 100%;
+    text-align: center;
+}
+main .logos .logo_img{
+    width: calc(100%/6);
+    vertical-align: middle;
+    padding: 5px;
+        /* border: 10px solid blueviolet; */
+}
+main #customers_logo a{
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/******* section DEPLOY */
+#deploy .container_deploy{
+    border:1px solid brown;
+}
+main #deploy h2{
+    color:#031c4e ;
+}
+main #deploy p{
+    color: #5c6a88;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+main #deploy .pseudo_grid{
+    padding: 20px 10%;
+        /* border:15px solid  deeppink; */
+    
+}
+main #deploy .left_menu,
+main #deploy .main_grid{
+    text-align: left;
+        /* border:3px solid  darkorange; */
+}
+main #deploy .left_menu{
+    float: left;
+    width: 25%;
+}
+main #deploy .left_menu li{
+    text-align: left;
+    font-weight: 400;
+    list-style: none;
+    border-left: 2px solid #cccccc;
+}
+main #deploy .left_menu li a{
+    color: #75809a;
+    line-height: 50px;
+    font-size: 16px;
+    padding-left: 15px;
+}
+main #deploy .main_grid{
+    float: right;
+    width: 75%;
+}
+main #deploy .main_grid .grid_item{
+    display: inline-block;
+    width: 49%;
+}
+main #deploy .main_grid .grid_item:nth-child(2n) {
+    background: red;
+  }
+/* ! RESPONSIVE */ 
+/* ! Il sito ha 3 misure :   */ 
+/* ! Small = 0-500px         */
+/* ! Medium = 501-777px      */
+/* ! Large = 778-2000px      */
+
+/* header_top hamburger menu */
+/* @media screen and (max-width:1023px){
+    
+} */
+
+/* jumbotron SMALL 0-500 */
+@media screen and (max-width: 500px ) {
+    main .logos .logo_img{
+        width: calc(100%/3);
+        vertical-align: middle;
+        padding: 10px;
+            /* border: 10px solid blueviolet; */
+    }
+}
+
+/* jumbotron MEDIUM 500-778 */
+@media screen and (min-width: 500px) and (max-width:777px) {
+
+}

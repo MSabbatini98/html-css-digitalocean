@@ -10,7 +10,14 @@ body{
     height: 10000px;
     color: greenyellow;
 } 
-
+a {
+    text-decoration: none;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 60px 0 20px 0;
+}
 .colored_h3 {
     color: #006aff;
 }

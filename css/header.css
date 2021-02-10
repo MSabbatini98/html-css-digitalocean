@@ -30,6 +30,7 @@ header .header_top{
     left: 0;
     right: 0;
     top: 0;
+    z-index: 100;
     height: 64px;
     width: 100%;
     color: #031c4e;
@@ -176,7 +177,7 @@ header .form_body small {
 }
 header .form_body small a{
     color: rgb(0, 0, 238);
-    text-decoration: initial;
+    text-decoration: underline;
 }
 .width{
     max-width: 1170px;
@@ -255,10 +256,6 @@ header .form_body small a{
         margin-top: 15px;
         padding: 25px 0 20px 0;
     }
-    body{
-        background-color: lawngreen;
-    }
-
     header p{
         color: #bbcdff;
         padding-top: 20px;

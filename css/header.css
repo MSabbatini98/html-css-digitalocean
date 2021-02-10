@@ -1,4 +1,4 @@
-/* header and jumbotron */
+/* header with jumbotron */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -95,7 +95,7 @@ header .left_jumby{
     width: 55%;
     float: left;
     font-size: 14px;
-        border: 2px solid pink;
+        /* border: 2px solid pink; */
 }
 header .left_jumby p{
     padding-top: 5px;
@@ -157,40 +157,35 @@ header .form_body input[type=submit] {
     cursor: pointer;
 }
 header .form_body #google_submit {
-    position: relative;
+    background-image: url("../img/google-icon.png");
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position-x: 15px;
+    background-position-y: 6px;
     background-color: white;
     -webkit-box-shadow: 2px 2px 4px 0px rgba(50, 50, 50, 0.3);
     -moz-box-shadow:    2px 2px 4px 0px rgba(50, 50, 50, 0.3);
     box-shadow:         2px 2px 4px 0px rgba(50, 50, 50, 0.3);
     color: #626262;
 }
-.google_line{
-    position: relative;
-    border:1px solid  lawngreen;
-}
-header .form_body .google_icon{
-    position: absolute;
-    transform: translate(-1250%, 75%)
-}
 header .form_body small {
     color: #626262;
     display: inline-block;
+    text-align: center;
     margin: 10px 0 15px 0;
 }
 header .form_body small a{
     color: rgb(0, 0, 238);
     text-decoration: initial;
 }
-
-
 .width{
     max-width: 1170px;
     margin: auto;
     padding: 0 15px;
 }
-.jumby_content, .header_top{
+/* .jumby_content, .header_top{
     border: 2px solid red;
-}
+} */
 /* ! RESPONSIVE */ 
 /* ! Il sito ha 3 misure :   */ 
 /* ! Small = 0-500px         */
@@ -199,9 +194,8 @@ header .form_body small a{
 
 /* header_top hamburger menu */
 @media screen and (max-width:1023px){
-    body{
-        background-color: rgba(40, 40, 248, 0.564);
-        color: blue;
+    .jumby_content{
+        padding: 5px 7%;
     }
     header .central_nav,
     header .right_nav{
@@ -217,9 +211,6 @@ header .form_body small a{
 @media screen and (max-width: 500px ) {
     h1{
         font-size: 38px;
-    }
-    .jumby_content{
-        padding: 0 20px;
     }
     header .form_body {
         width: 90%;
@@ -237,22 +228,16 @@ header .form_body small a{
         margin-top: 15px;
         padding: 25px 0 20px 0;
     }
-    body{
-        background-color: lawngreen;
-    }
-
     header p{
         color: #bbcdff;
         padding-top: 20px;
     }
 }
+
 /* jumbotron MEDIUM 500-778 */
 @media screen and (min-width: 500px) and (max-width:777px) {
     h1{
         font-size: 38px;
-    }
-    .jumby_content{
-        padding: 0 20px;
     }
     header .form_body {
         width: 90%;

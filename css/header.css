@@ -5,11 +5,13 @@
 }
 h1{
     font-size: 58px;
-    color: white;
 }
-header .header_top .central_nav{
-    margin: 0 5%;
-}
+/* header p{
+    font-size: 10px;
+    padding: 40px;
+    margin: 40px;
+
+} */
 header a{
     text-decoration: none;
     color: inherit;
@@ -22,19 +24,23 @@ header .header_top .right_nav {
     display: inline-block;
 }
 header .header_top{
+    position: fixed;
     height: 64px;
+    width: 100%;
     color: #031c4e;
-    font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
     background-color: white;
-        border: 1px solid red;
+        /* border: 1px solid red; */
 }
-header .header_top .logo img{
+header  .logo img{
     height:65px;
     width:auto;
     vertical-align: middle;
     padding: 15px;
     padding-left: 2px;
+}
+header  .central_nav{
+    margin: 0 5%;
 }
 header .central_nav,
 header .logo {
@@ -61,11 +67,27 @@ header .hamburger_menu{
     display: none;
     line-height: 65px;
     color: #3a8aff;
-
     margin-right: 15px;
 }
 
-
+/************JUMBOTRON  */
+header .my_jumbotron{
+    padding-top: 64px;
+    background-image: url("../img/bg-jumby.svg");
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+}
+.left_jumby{
+    margin: 90px 0 0 0;
+    width: 50%;
+    color: #bbcbfc;
+    font-size: 14px;
+        border: 2px solid pink;
+}
+.right_jumby_google{
+    border: 2px solid pink;
+}
 @media screen and (max-width:1023px){
     body{
         background-color: rgba(40, 40, 248, 0.564);

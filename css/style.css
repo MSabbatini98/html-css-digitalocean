@@ -4,21 +4,26 @@
 
 /* debugging (if it's grey or green is not formatted) */
 
-/* body{
+body{
+    font-family: 'Roboto', sans-serif;
     background-color: grey;
     color: greenyellow;
-        font-family: 'Roboto', sans-serif;
-
 } 
-
-.container{
-    width: 1140px;
-    border:1px  lawngreen;
-
-} */
-
 h1{
     color: white;
+}
+.colored_h3 {
+    color: #006aff;
+}
+.c_primary{
+    color: #006aff;
+}
+.c_secondary{
+    color: #bbcbfc;
+}
+.width{
+    max-width: 1170px;
+    margin: auto;
 }
 /* 
 Fino ai 1024 hamburger menu

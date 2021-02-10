@@ -6,12 +6,11 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: grey;
+    
+    height: 10000px;
     color: greenyellow;
 } 
-h1{
-    color: white;
-}
+
 .colored_h3 {
     color: #006aff;
 }
@@ -21,9 +20,10 @@ h1{
 .c_secondary{
     color: #bbcbfc;
 }
-.width{
-    max-width: 1170px;
-    margin: auto;
+.clearfix::after{
+    display: block;
+    clear: both;
+    content: "";
 }
 /* 
 Fino ai 1024 hamburger menu
@@ -35,4 +35,5 @@ max-width: 480px;
 colors:
 h1: white
 h2-h6: #031c4e
+text #5b6987
 */

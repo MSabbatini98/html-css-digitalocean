@@ -1,3 +1,33 @@
 @import "header.css";
 @import "main.css";
 @import "footer.css";
+
+/* debugging (if it's grey or green is not formatted) */
+
+/* body{
+    background-color: grey;
+    color: greenyellow;
+        font-family: 'Roboto', sans-serif;
+
+} 
+
+.container{
+    width: 1140px;
+    border:1px  lawngreen;
+
+} */
+
+h1{
+    color: white;
+}
+/* 
+Fino ai 1024 hamburger menu
+Dai 1024 in su full header_top
+max-width: 1140px;
+max-width: 720px;
+max-width: 480px;
+
+colors:
+h1: white
+h2-h6: #031c4e
+*/

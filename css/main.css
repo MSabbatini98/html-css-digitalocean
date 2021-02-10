@@ -41,9 +41,10 @@ main #customers_logo a{
 
 /******* section DEPLOY */
 #deploy .container_deploy{
-    border:1px solid brown;
+        /* border:1px solid brown; */
 }
-main #deploy h2{
+main #deploy h2, 
+main #deploy h3{
     color:#031c4e ;
 }
 main #deploy p{
@@ -54,11 +55,9 @@ main #deploy p{
     font-weight: 500;
     letter-spacing: 0.3px;
 }
-
 main #deploy .pseudo_grid{
-    padding: 20px 10%;
-        /* border:15px solid  deeppink; */
-    
+    padding: 30px 7%;
+        /* border:15px solid  deeppink; */   
 }
 main #deploy .left_menu,
 main #deploy .main_grid{
@@ -67,7 +66,7 @@ main #deploy .main_grid{
 }
 main #deploy .left_menu{
     float: left;
-    width: 25%;
+    width: 20%;
 }
 main #deploy .left_menu li{
     text-align: left;
@@ -83,15 +82,26 @@ main #deploy .left_menu li a{
 }
 main #deploy .main_grid{
     float: right;
-    width: 75%;
+    width: 80%;
 }
 main #deploy .main_grid .grid_item{
     display: inline-block;
+    vertical-align: top;
+    text-align: left;
     width: 49%;
+    padding: 15px 10px;
 }
-main #deploy .main_grid .grid_item:nth-child(2n) {
-    background: red;
-  }
+main #deploy .main_grid .grid_item p{
+    text-align: left;
+}
+main #deploy .main_grid .grid_item h3{
+    margin: 20px 0 15px 0;
+}
+/* main #deploy .main_grid .grid_item:nth-child(2n) {
+    margin-left:10px;
+        background-color: rgb(102, 103, 104);
+} */
+
 /* ! RESPONSIVE */ 
 /* ! Il sito ha 3 misure :   */ 
 /* ! Small = 0-500px         */
@@ -103,6 +113,7 @@ main #deploy .main_grid .grid_item:nth-child(2n) {
     
 } */
 
+
 /* jumbotron SMALL 0-500 */
 @media screen and (max-width: 500px ) {
     main .logos .logo_img{
@@ -111,6 +122,25 @@ main #deploy .main_grid .grid_item:nth-child(2n) {
         padding: 10px;
             /* border: 10px solid blueviolet; */
     }
+    main #deploy .pseudo_grid {
+        padding: 10px;
+            /* border: 15px solid deeppink; */
+    }
+    main #deploy .left_menu{
+        float: none;
+        display: block;
+        padding: 40px 0 20px 0;
+        width: 100%;
+    }
+    main #deploy .main_grid {
+        float: none;
+    }
+    main #deploy .main_grid .grid_item{
+        display: block;
+        width: 100%;
+            /* background-color: rgb(102, 103, 104); */
+    }
+ 
 }
 
 /* jumbotron MEDIUM 500-778 */

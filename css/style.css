@@ -6,7 +6,6 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    
     height: 10000px;
     color: greenyellow;
 } 
@@ -17,6 +16,10 @@ h2{
     font-size: 30px;
     text-align: center;
     padding: 60px 0 20px 0;
+    color:#031c4e ;
+}
+h3{
+    color:#031c4e ;
 }
 .colored_h3 {
     color: #006aff;

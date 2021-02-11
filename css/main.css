@@ -154,7 +154,7 @@ main #features .box_3 {
     display: inline-block;
     vertical-align: top;
     text-align: left;
-    width: calc(99%/3);
+    width: calc( ( 100% - 40px ) / 3 );
     padding: 20px;
 }
 main #features  .box_3 h3{
@@ -288,8 +288,6 @@ main .btn_create_account{
         padding: 8px;
     }
     main #features .box_3 {
-        display: inline-block;
-        text-align: left;
         width: 100%;
         padding: 20px;
     }
@@ -301,5 +299,8 @@ main .btn_create_account{
         display: inline-block;
         width: 100%;
         padding: 8px;
+    }
+    main #features .box_3 {
+        width: calc( ( 100% - 40px ) / 3 );
     }
 }

@@ -147,22 +147,30 @@ main #designed .full_dot{
 }
 
 /******* section FEATURES */
-
-main #features .grid_item {
+main #features .content_features{
+    padding-bottom: 50px;
+}
+main #features .box_3 {
     display: inline-block;
     vertical-align: top;
     text-align: left;
     width: calc(99%/3);
     padding: 20px;
 }
-
-main #features  .grid_item p{
-    text-align: left;
-}
-main #features  .grid_item h3{
+main #features  .box_3 h3{
     margin: 20px 0 15px 0;
 }
+main #features p{
+    color: #5c6a88;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    padding-bottom: 10px;
+}
+main #features .arrow {
 
+}
 /* ******* section SERVICES */
 main #services .content_services{
     padding-bottom: 30px;
@@ -279,7 +287,12 @@ main .btn_create_account{
         width: 100%;
         padding: 8px;
     }
- 
+    main #features .box_3 {
+        display: inline-block;
+        text-align: left;
+        width: 100%;
+        padding: 20px;
+    }
 }
 
 /* jumbotron MEDIUM 500-778 */

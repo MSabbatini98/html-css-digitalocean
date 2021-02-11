@@ -166,6 +166,49 @@ main #features  .grid_item h3{
     margin: 20px 0 15px 0;
 }
 
+/******* section get_started */
+main #get_started h2{
+    color: white;
+}
+main #get_started{
+    background: rgb(0,66,188);
+    background: linear-gradient(180deg, rgba(0,66,188,1) 0%, rgba(0,30,154,1) 100%);
+    height: 255px;
+}
+main .btn_create_account{
+    display: block;
+    margin: auto;
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    color: #006aff;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ! RESPONSIVE */ 
 /* ! Il sito ha 3 misure :   */ 
 /* ! Small = 0-500px         */

@@ -101,7 +101,7 @@ main #deploy .main_grid .grid_item h3{
 } */
 
 
-/******* section FEATURES (carousel #1) */
+/******* section DESIGNED (carousel #1) */
 main #designed .carousel{
     width: 80%;
     margin: auto;
@@ -147,6 +147,23 @@ main #designed .carousel_dots{
 }
 main #designed .full_dot{
     background-color: #006aff;
+}
+
+/******* section FEATURES */
+
+main #features .grid_item {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    width: calc(99%/3);
+    padding: 20px;
+}
+
+main #features  .grid_item p{
+    text-align: left;
+}
+main #features  .grid_item h3{
+    margin: 20px 0 15px 0;
 }
 
 /* ! RESPONSIVE */ 

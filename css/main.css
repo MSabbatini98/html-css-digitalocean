@@ -12,8 +12,9 @@
         /* background-color: lawngreen; */
     background-color:#f3f5f9 ;
 }
-main *{
-    /* border: 1px solid red; */
+.bg_gradient{
+    background: rgb(0,66,188);
+    background: linear-gradient(180deg, rgba(0,66,188,1) 0%, rgba(0,30,154,1) 100%);
 }
 main h4{
     color:  rgb(91, 105, 135);
@@ -40,10 +41,6 @@ main #customers_logo a{
 }
 
 /******* section DEPLOY */
-#deploy .container_deploy{
-        /* border:1px solid brown; */
-}
-
 main #deploy p, 
 main #designed p{
     color: #5c6a88;
@@ -166,16 +163,65 @@ main #features  .grid_item h3{
     margin: 20px 0 15px 0;
 }
 
-/******* section get_started */
+/* ******* section SERVICES */
+main #services .content_services{
+    padding-bottom: 30px;
+}
+main #services h2, 
 main #get_started h2{
     color: white;
 }
+main #services .fake_table{
+    display: inline-block;
+    width: 49%;
+    padding: 8px;
+}
+main #services .fake_table .single_line:last-of-type{
+    border-bottom: none;
+}
+main #services .single_line{
+    position: relative;
+    font-size: 10px;
+    /* background-color: aqua; */
+    border-bottom: 1px solid  white;
+}
+main #services .test_speed, .location, .flight_codes, .code {
+    line-height: 30px;
+    margin: 4px;
+}
+main #services .flight_codes{
+    float: left;
+    width: 40px;
+    text-transform: uppercase;
+    color: white;
+}
+main #services .location{
+    float: left;
+    padding-left: 40px;
+    color: #bac7e9;
+}
+main #services p {
+    text-transform: capitalize;
+    margin: 0;
+}
+main #services .test_speed{
+    margin-right: 20px;
+    float: right;
+}
+main #services a{
+    text-decoration: none;
+    color:#00d7d2 ;
+}
+main #services .space{
+    visibility: hidden;
+}
+/******* section get_started */
+
 main #get_started{
-    background: rgb(0,66,188);
-    background: linear-gradient(180deg, rgba(0,66,188,1) 0%, rgba(0,30,154,1) 100%);
     height: 255px;
 }
 main .btn_create_account{
+    font-size: 15px;
     display: block;
     margin: auto;
     background-color: white;
@@ -185,25 +231,6 @@ main .btn_create_account{
     margin-bottom: 50px;
     border-radius: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -247,10 +274,19 @@ main .btn_create_account{
         width: 100%;
             /* background-color: rgb(102, 103, 104); */
     }
+    main #services .fake_table{
+        display: inline-block;
+        width: 100%;
+        padding: 8px;
+    }
  
 }
 
 /* jumbotron MEDIUM 500-778 */
 @media screen and (min-width: 500px) and (max-width:777px) {
-
+    main #services .fake_table{
+        display: inline-block;
+        width: 100%;
+        padding: 8px;
+    }
 }

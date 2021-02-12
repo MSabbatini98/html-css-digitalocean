@@ -1,19 +1,4 @@
-/* header with jumbotron */
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-h1{
-    font-size: 58px;
-    color: white;
-}
-/* header p{
-    font-size: 10px;
-    padding: 40px;
-    margin: 40px;
 
-} */
 header a{
     text-decoration: none;
     color: inherit;
@@ -145,7 +130,6 @@ header .form_body input[type=password], select {
     display: inline-block;
     border-radius: 5px;
     border: 1px solid #ccc;
-
 }
 header .form_body input[type=submit] {
     width: 100%;
@@ -182,7 +166,6 @@ header .form_body small a{
 .width{
     max-width: 1170px;
     margin: auto;
-    padding: 0 15px;
 }
 /* .jumby_content, .header_top{
     border: 2px solid red;

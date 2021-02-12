@@ -8,21 +8,7 @@
     margin: auto;
     padding: 0 15px;
 } */
-.bg_grey{
-        /* background-color: lawngreen; */
-    background-color:#f3f5f9 ;
-}
-.bg_gradient{
-    background: rgb(0,66,188);
-    background: linear-gradient(180deg, rgba(0,66,188,1) 0%, rgba(0,30,154,1) 100%);
-}
-main h4{
-    color:  rgb(91, 105, 135);
-    text-transform: uppercase;
-    font-size: 14px;
-    text-align: center;
-    padding: 20px 0;
-}
+
 /****** section CUSTUMERS_LOGO */
 main .logos {
     width: 100%;
@@ -93,26 +79,22 @@ main #deploy .main_grid .grid_item p{
     text-align: left;
 }
 
-/* main #deploy .main_grid .grid_item:nth-child(2n) {
-    margin-left:10px;
-        background-color: rgb(102, 103, 104);
-} */
-
-
-/******* section DESIGNED (carousel #1) */
+/******* section DESIGNED  (carousel #1) */
+main #development .carousel,
 main #designed .carousel{
     position: relative;
     width: 80%;
     margin: auto;
     padding-top: 30px;
-        border:1px solid  dodgerblue;
+        /* border:1px solid  dodgerblue; */
 }
+main #development .main_carousel,
 main #designed .main_carousel{
-    display: inline-block;
     vertical-align: middle;
     padding-bottom: 30px;
         /* border:1px solid  greenyellow; */
 }
+main #development .side_carousel,
 main #designed .side_carousel{
     position: absolute;
     height: auto;
@@ -130,15 +112,18 @@ main #designed .side_carousel_dx{
     right: 18%;
     color: #031c4e;
 }
+main #development .carousel .carousel_dots,
 main #designed .carousel .carousel_dots{
     text-align: center;
 }
+main #development .carousel_2_box,
 main #designed .carousel_1_img{
     display: block;
     margin: auto;
     width: 55%;
         /* border:3px  orangered solid; */
 }
+main #development .dot ,
 main #designed .dot {
     cursor: pointer;
     margin: 30px 0;
@@ -150,9 +135,11 @@ main #designed .dot {
     border: 1px solid  #006aff;
     display: inline-block;
 }
+main #development .carousel_dots,
 main #designed .carousel_dots{
     padding: 20px 0 75px 0;
 }
+main #development .full_dot,
 main #designed .full_dot{
     background-color: #006aff;
 }
@@ -214,7 +201,7 @@ main #services .flight_codes{
 }
 main #services .location{
     float: left;
-    padding-left: 40px;
+    padding-left: 4%;
     color: #bac7e9;
 }
 main #services p {
@@ -229,8 +216,47 @@ main #services a{
     text-decoration: none;
     color:#00d7d2 ;
 }
-main #services .space{
+main #services .space,
+main #development .space{
     visibility: hidden;
+}
+
+/******* section DEVELOPMENT  (carousel #2) */
+/******* per il layout base vedere la section del primo carousel*/
+main #development .development_content{
+    padding: 20px auto;
+        /* border: 3px solid  blue; */
+}
+main #development .side_carousel_sx{
+    left: 13%;
+    color: #031c4e;
+}
+main #development .side_carousel_dx{
+    right: 13%;
+    color: #031c4e;
+}
+main #development .carousel_2_box{
+    margin: auto;
+    padding: 70px 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: #5c6a88;
+    background-color: white;
+        /* border:1px solid  coral; */
+}
+main #development .carousel2_img{
+    width: 100%;
+    max-width: 350px;
+}
+main #development .carousel_2_box p{
+    font-size: 18px;
+    padding: 20px 0 10px 0;
+}
+main #development .carousel_2_box small{
+    color: #031c4e;
+}
+main #development .carousel_2_box a{
+    font-size: 12px;
 }
 
 /******* section GET STARTED */
@@ -239,6 +265,7 @@ main #get_started{
 }
 main .btn_create_account{
     font-size: 15px;
+    font-weight: 600;
     display: block;
     margin: auto;
     background-color: white;
@@ -249,16 +276,11 @@ main .btn_create_account{
     border-radius: 5px;
 }
 
-
-
-
-
 /* ! RESPONSIVE */ 
 /* ! Il sito ha 3 misure :   */ 
 /* ! Small = 0-500px         */
 /* ! Medium = 501-777px      */
 /* ! Large = 778-2000px      */
-
 /* jumbotron SMALL 0-500 */
 @media screen and (max-width: 500px ) {
     main .logos .logo_img{
@@ -287,9 +309,10 @@ main .btn_create_account{
     }
     main #designed .carousel{
         padding-top: 75px;
-            border:1px solid  dodgerblue;
+            /* border:1px solid  dodgerblue; */
     }
-    main #designed .side_carousel{
+    main #designed .side_carousel,
+    main #development .side_carousel{
         display: none;
     }
     main #designed .carousel_1_img{
@@ -301,6 +324,9 @@ main .btn_create_account{
     }
     main #designed .carousel_dots {
         padding: 70px 0 50px 0;
+    }
+    main #development .carousel_2_box {
+            width: 75%;        
     }
     main #services .fake_table{
         display: inline-block;
@@ -326,11 +352,9 @@ main .btn_create_account{
     }
     main #designed .side_carousel_sx{
         left: 16%;
-        color: #031c4e;
     }
     main #designed .side_carousel_dx{
         right: 16%;
-        color: #031c4e;
     }
     main #designed .side_carousel{
         font-size: 150%;

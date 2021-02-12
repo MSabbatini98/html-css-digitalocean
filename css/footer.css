@@ -27,7 +27,7 @@ footer .main_col_foot .smaller{
 }
 footer .socials_container .socials {
     display: inline-block;
-    height: 20px;
+    font-size: 20px;
     width: auto;
     padding: 10px 10px 0 0;
     color: #7a859d;       

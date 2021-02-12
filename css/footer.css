@@ -2,3 +2,30 @@ footer {
     background-color: #031c4e;
     height: 700px;
 }
+footer .social_container {
+    width: 30%;
+}
+footer .social_container .socials {
+    display: inline-block;
+    height: 23px;
+    width: auto;
+    padding-right: 10px;
+        
+}
+footer .secondary_col_foot{
+    width: 70%;
+}
+
+footer .foot_col{
+    width: 25%;
+}
+
+footer h5{
+    color: white;
+    font-size: 15px;
+}
+
+footer a{
+    font-size: 13px;
+    color:#a6adbd ;
+}

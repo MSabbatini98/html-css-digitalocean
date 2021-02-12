@@ -1,31 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 footer {
     background-color: #031c4e;
-    height: 700px;
 }
-footer .social_container {
-    width: 30%;
+footer .main_col_foot,
+footer .secondary_col_foot{
+    padding-top: 60px;
 }
-footer .social_container .socials {
+footer .main_col_foot{
+    width: 29% ;   
+    vertical-align: top;
     display: inline-block;
-    height: 23px;
+        /* border: 3px solid  white; */
+}
+footer .small_logo_foot {
+    margin-bottom: 15px;
+}
+footer .main_col_foot small{
+    color: #8b94a9;
+}
+footer .main_col_foot .smaller{
+    color: #5a6887;
+    /* color: cornsilk; */
+}
+footer .socials_container .socials {
+    display: inline-block;
+    height: 20px;
     width: auto;
-    padding-right: 10px;
-        
+    padding: 10px 10px 0 0;
+    color: #7a859d;       
 }
 footer .secondary_col_foot{
-    width: 70%;
+    width: 69%;
+    display: inline-block;
+        /* border:3px solid  burlywood; */
 }
 
 footer .foot_col{
-    width: 25%;
+    width: 24%;
+    padding: 5px;
+    vertical-align: top;
+    display: inline-block;
 }
-
 footer h5{
+    padding: 10px 0;
     color: white;
     font-size: 15px;
 }
-
+footer ul li {
+    text-decoration: none;
+    list-style: none;
+    line-height: 25px;
+    text-transform: capitalize;
+}
 footer a{
     font-size: 13px;
     color:#a6adbd ;
+}
+
+/* ! RESPONSIVE */ 
+/* ! Il sito ha 3 misure :   */ 
+/* ! Small = 0-500px         */
+/* ! Medium = 501-777px      */
+/* ! Large = 778-2000px      */
+
+/*  SMALL 0-500 */
+@media screen and (max-width: 500px ) {
+    footer .main_col_foot{
+        display: block;
+        width: 100%;
+        padding-top: 50px;
+            /* border: 3px solid  white; */
+    }
+    footer .foot_col{
+        width: 100%;
+        padding: 5px;
+    }
+    footer .secondary_col_foot{
+        display: block;
+        width: 100%;
+            /* border:3px solid  burlywood; */
+    }
+}
+
+/*  MEDIUM 500-778 */
+@media screen and (min-width: 500px) and (max-width:777px) {
+    footer .main_col_foot{
+        display: block;
+        width: 100%;
+            /* border: 3px solid  white; */
+    }
+    footer .foot_col{
+        width: 49%;
+        padding: 5px;
+        vertical-align: top;
+        display: inline-block;
+    }
+    footer .secondary_col_foot{
+        display: block;
+        width: 100%;
+            /* border:3px solid  burlywood; */
+    }
 }

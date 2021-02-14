@@ -16,7 +16,9 @@ body{
 body{
     font-family: 'Roboto', sans-serif;
 } 
-
+section{
+    padding-top: 30px;
+}
 h1{
     font-size: 58px;
     color: white;
@@ -33,10 +35,11 @@ h3{
 a {
     text-decoration: none;
 }
+
 small .bolder{
     font-weight: 800;
 }
-small .bold{
+.bold{
     font-weight: 500;
 }
 .bg_grey{

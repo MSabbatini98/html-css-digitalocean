@@ -4,6 +4,7 @@
 }
 footer {
     background-color: #031c4e;
+    padding-bottom: 70px;
 }
 footer .main_col_foot,
 footer .secondary_col_foot{
@@ -59,7 +60,58 @@ footer a{
     font-size: 13px;
     color:#a6adbd ;
 }
-
+/* ********* SHARKY */
+footer .sharky {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+        /* border: 3px dashed greenyellow; */
+}
+footer .sharky_pic{
+    background-color: #006aff;
+    border-radius: 4px;
+    float: right;
+}
+footer .shark_notification{
+    position: absolute;
+    border: 4px solid white;
+    background-color: red;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    top: -10px;
+    right: -10px;
+}
+footer .shark_notification small{
+    color: white;
+    font-size: 12px;
+    padding: 8px;
+}
+footer .speech_baloon{
+    float: left;
+    position: relative;
+    width: 350px;
+    background-color: white;
+    border-radius: 4px;
+    margin-right: 20px;
+    font-size: 15px;
+}
+footer .baloon_tail{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 35px;
+    right: -6px;
+}
+footer .speech_baloon p{
+    padding: 15px;
+    color: #031c4e;
+}
+footer .sharky_shadow{
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow:    0px 0px 12px 0px rgba(0, 0, 0, 0.5);
+    box-shadow:         0px 0px 12px 0px rgba(0, 0, 0, 0.5);
+}
 /* ! RESPONSIVE */ 
 /* ! Il sito ha 3 misure :   */ 
 /* ! Small = 0-500px         */
@@ -83,6 +135,31 @@ footer a{
         width: 100%;
             /* border:3px solid  burlywood; */
     }
+    /* sharky */
+    footer .sharky {
+        position: fixed;
+        bottom: 55px;
+        left: 40px;
+            /* border: 3px dashed greenyellow; */
+    }
+    footer .sharky_pic{
+        width: 80px;
+        float: none;
+        margin-bottom: 20px;
+    }
+    footer .shark_notification{
+        position: absolute;
+        bottom: 15px;
+        left: 60px;
+    }
+    /* footer .baloon_tail{
+        position: absolute;
+        color: red;
+        font-size: 20px;
+        left: 30px;
+        top: -10px;
+        transform: rotate(90deg);
+    } */
 }
 
 /*  MEDIUM 500-778 */
@@ -103,4 +180,21 @@ footer a{
         width: 100%;
             /* border:3px solid  burlywood; */
     }
+        /* sharky */
+        footer .sharky {
+            position: fixed;
+            bottom: 55px;
+            left: 40px;
+                /* border: 3px dashed greenyellow; */
+        }
+        footer .sharky_pic{
+            width: 80px;
+            float: none;
+            margin-bottom: 20px;
+        }
+        footer .shark_notification{
+            position: absolute;
+            bottom: 15px;
+            left: 60px;
+        }
 }

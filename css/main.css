@@ -227,15 +227,15 @@ main #development .space{
 /******* section DEVELOPMENT  (carousel #2) */
 /******* per il layout base vedere la section del primo carousel*/
 main #development .development_content{
-    padding: 20px auto;
+    padding: 20px 0;
         /* border: 3px solid  blue; */
 }
 main #development .side_carousel_sx{
-    left: 13%;
+    left: 16%;
     color: #031c4e;
 }
 main #development .side_carousel_dx{
-    right: 13%;
+    right: 16%;
     color: #031c4e;
 }
 main #development .carousel_2_box{
@@ -284,7 +284,7 @@ main .btn_create_account{
 /* ! Small = 0-500px         */
 /* ! Medium = 501-777px      */
 /* ! Large = 778-2000px      */
-/* jumbotron SMALL 0-500 */
+/*  SMALL 0-500 */
 @media screen and (max-width: 500px ) {
     main .logos .logo_img{
         width: calc(100%/2);
@@ -340,10 +340,9 @@ main .btn_create_account{
         width: 100%;
         padding: 20px;
     }
-    
 }
 
-/* jumbotron MEDIUM 500-778 */
+/*  MEDIUM 500-778 */
 @media screen and (min-width: 500px) and (max-width:777px) {
     main #services .fake_table{
         display: inline-block;
@@ -352,12 +351,6 @@ main .btn_create_account{
     }
     main #features .box_3 {
         width: calc( ( 100% - 40px ) / 3 );
-    }
-    main #designed .side_carousel_sx{
-        left: 16%;
-    }
-    main #designed .side_carousel_dx{
-        right: 16%;
     }
     main #designed .side_carousel{
         font-size: 150%;

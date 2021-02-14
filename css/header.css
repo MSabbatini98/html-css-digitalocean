@@ -166,10 +166,6 @@ header .form_body small a{
     color: rgb(0, 0, 238);
     text-decoration: underline;
 }
-.width{
-    max-width: 1170px;
-    margin: auto;
-}
 /* .jumby_content, .header_top{
     border: 2px solid red;
 } */
@@ -196,9 +192,6 @@ header .form_body small a{
 
 /* jumbotron SMALL 0-500 */
 @media screen and (max-width: 500px ) {
-    h1{
-        font-size: 38px;
-    }
     header .form_body {
         width: 90%;
         margin: auto;

@@ -2,20 +2,23 @@
 @import "main.css";
 @import "footer.css";
 
-/* debugging (if it's red or green is not formatted) */
-body{
-    color: greenyellow;
-    background-color: red;
-} 
-
+/* ?  RESET */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-body{
-    font-family: 'Roboto', sans-serif;
-} 
+/* debugging: */
+/* if it's green is not formatted */ 
+/* if it's red, the background is showing*/
+/*
+ body{
+    color: greenyellow;
+    background-color: red;
+}  
+*/
+
+/* ?COMMON ELEMENTS */
 section{
     padding-top: 30px;
 }
@@ -32,18 +35,30 @@ h2{
 h3{
     color:#031c4e ;
 }
+main h4{
+    color:  rgb(91, 105, 135);
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* ?  FONTS */
+body{
+    font-family: 'Roboto', sans-serif;
+} 
 a {
     text-decoration: none;
 }
-
-small .bolder{
+.bolder{
     font-weight: 800;
 }
 .bold{
     font-weight: 500;
 }
+
+/* ?COLORS */
 .bg_grey{
-    /* background-color: lawngreen; */
     background-color:#f3f5f9 ;
 }
 .bg_white{
@@ -53,14 +68,6 @@ small .bolder{
     background: rgb(0,66,188);
     background: linear-gradient(180deg, rgba(0,66,188,1) 0%, rgba(0,30,154,1) 100%);
 }
-main h4{
-    color:  rgb(91, 105, 135);
-    text-transform: uppercase;
-    font-size: 14px;
-    text-align: center;
-    padding: 20px 0;
-}
-
 .colored_h3 {
     color: #006aff;
 }
@@ -70,8 +77,21 @@ main h4{
 .c_secondary{
     color: #bbcbfc;
 }
+
+/* ?GLOBAL ESSENTIAL CLASSES   */
+.width{
+    max-width: 1170px;
+    margin: auto;
+}
 .clearfix::after{
     display: block;
     clear: both;
     content: "";
+}
+
+/*  SMALL 0-500 */
+@media screen and (max-width: 500px ) {
+    h1{
+        font-size: 36px;
+    }
 }

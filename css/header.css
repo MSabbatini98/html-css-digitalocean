@@ -20,7 +20,6 @@ header .header_top{
     width: 100%;
     color: #031c4e;
     text-transform: capitalize;
-    background-color: white;
         /* border: 1px solid red; */
 }
 header  .logo img{
@@ -88,7 +87,6 @@ header .left_jumby p{
     padding-top: 5px;
     font-size: 20px;
     line-height: 1.5;
-    color: #bbcbfd;
 }
 
 header .right_jumby_google{
@@ -97,7 +95,6 @@ header .right_jumby_google{
     max-width: 375px;
     float: right;
     margin:60px 0;
-    background-color: white;
     border-radius: 5px;
         /* border: 2px solid pink; */
 }
@@ -107,11 +104,7 @@ header .right_jumby_google .form_header{
     margin: 40px 0 10px 0;
 }
 header .right_jumby_google h3{
-    color: #031c4e;
     padding: 5px 0;
-}
-header .right_jumby_google .colored_h3 {
-    color: #006aff;
 }
 header .form_body {
     width: 80%;
@@ -188,8 +181,8 @@ header .form_body small a{
     }
 }
 
-/* jumbotron SMALL 0-500 */
-@media screen and (max-width: 500px ) {
+/*  SMALL and MEDIUM 0-778 */
+@media screen and  (max-width:778px) {
     header .form_body {
         width: 90%;
         margin: auto;
@@ -207,34 +200,6 @@ header .form_body small a{
         padding: 25px 0 20px 0;
     }
     header p{
-        color: #bbcdff;
-        padding-top: 20px;
-    }
-}
-
-/* jumbotron MEDIUM 500-778 */
-@media screen and (min-width: 500px) and (max-width:777px) {
-    h1{
-        font-size: 38px;
-    }
-    header .form_body {
-        width: 90%;
-        margin: auto;
-    }
-    header .left_jumby{
-        width: 100%;
-        float: none;
-        padding: 10px;
-    }
-    header .right_jumby_google{
-        float: none;
-        max-width: unset;
-        width: 100%;
-        margin-top: 15px;
-        padding: 25px 0 20px 0;
-    }
-    header p{
-        color: #bbcdff;
         padding-top: 20px;
     }
 }

@@ -251,9 +251,6 @@ main #development .carousel_2_box p{
     font-size: 18px;
     padding: 20px 0 10px 0;
 }
-main #development .carousel_2_box small{
-    color: #031c4e;
-}
 main #development .carousel_2_box a{
     font-size: 12px;
 }
@@ -267,10 +264,8 @@ main .btn_create_account{
     font-weight: 600;
     display: block;
     margin: auto;
-    background-color: white;
     padding: 10px 20px;
     border: none;
-    color: #006aff;
     margin-bottom: 50px;
     border-radius: 5px;
 }
@@ -351,7 +346,6 @@ main .btn_create_account{
     main #designed .side_carousel{
         font-size: 150%;
         top: 28%;
-        color: #031c4e;
             /* border:5px solid  rgb(30, 0, 255); */
     }
 }

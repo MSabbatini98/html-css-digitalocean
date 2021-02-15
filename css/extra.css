@@ -6,15 +6,12 @@ header .btn_sing_up:hover {
     color: white;
     transition: 0.8s;
 }
-header .form_body input[type=submit]:hover{
-    border: 1px darkblue solid;
-}
 main #deploy .left_menu li:hover{
     border-left: 4px solid #006aff;
     font-weight: 500;
     font-size: 110%;
 }
-main #deploy .left_menu a:hover {
+main #deploy .left_menu li:hover a {
     color: #006aff;
 }
 main #designed .side_carousel_sx:hover,
@@ -42,29 +39,21 @@ footer a:hover{
 @media screen and  (max-width:777px) {
     
     /***  sharky */
-    footer .sharky {
-        position: fixed;
-        bottom: 55px;
-        left: 40px;
-            /* border: 3px dashed greenyellow; */
+    footer .sharky_pic:hover + .speech_baloon{
+        visibility: visible;
     }
     footer .baloon_tail {
         position: absolute;
-        color: white;
         font-size: 20px;
         top: -15px;
-        left: 10px;
+        left: 23px;
+        right: unset;
         transform: rotate(270deg);
     }
     footer .sharky_pic{
         width: 80px;
         float: none;
         margin-bottom: 20px;
-    }
-    footer .shark_notification{
-        position: absolute;
-        bottom: 15px;
-        left: 60px;
     }
     footer .speech_baloon {
         max-width: 65vw;

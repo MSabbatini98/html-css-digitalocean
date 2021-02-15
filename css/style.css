@@ -62,9 +62,7 @@ a {
 .bg_grey{
     background-color:#f3f5f9 ;
 }
-.bg_white{
-    background-color: white;
-}
+
 .bg_gradient{
     background: rgb(0,66,188);
     background: linear-gradient(180deg, rgba(0,66,188,1) 0%, rgba(0,30,154,1) 100%);
@@ -72,13 +70,22 @@ a {
 .colored_h3 {
     color: #006aff;
 }
+.bg_white{
+    background-color: white;
+}
+.c_white{
+    color: white;
+}
+
 .c_primary{
     color: #006aff;
 }
 .c_secondary{
-    color: #bbcbfc;
+    color: #031c4e;
 }
-
+.c_secondary_light{
+    color: #bbcbfd;
+}
 /* ?GLOBAL ESSENTIAL CLASSES   */
 .width{
     max-width: 1170px;
@@ -91,7 +98,7 @@ a {
 }
 
 /*  SMALL 0-500 */
-@media screen and (max-width: 500px ) {
+@media screen and (max-width: 777px ) {
     h1{
         font-size: 36px;
     }

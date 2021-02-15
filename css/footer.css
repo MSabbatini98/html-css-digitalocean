@@ -84,7 +84,6 @@ footer .shark_notification{
     right: -10px;
 }
 footer .shark_notification small{
-    color: white;
     font-size: 12px;
     padding: 8px;
 }
@@ -92,21 +91,18 @@ footer .speech_baloon{
     float: left;
     position: relative;
     width: 350px;
-    background-color: white;
     border-radius: 4px;
     margin-right: 20px;
     font-size: 15px;
 }
 footer .baloon_tail{
     position: absolute;
-    color: white;
     font-size: 20px;
     top: 35px;
     right: -6px;
 }
 footer .speech_baloon p{
     padding: 15px;
-    color: #031c4e;
 }
 footer .sharky_shadow{
     -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
@@ -137,23 +133,6 @@ footer .sharky_shadow{
         width: 100%;
             /* border:3px solid  burlywood; */
     }
-    /* sharky */
-    footer .sharky {
-        position: fixed;
-        bottom: 55px;
-        left: 40px;
-            /* border: 3px dashed greenyellow; */
-    }
-    footer .sharky_pic{
-        width: 80px;
-        float: none;
-        margin-bottom: 20px;
-    }
-    footer .shark_notification{
-        position: absolute;
-        bottom: 15px;
-        left: 60px;
-    }
 }
 
 /*  MEDIUM 500-778 */
@@ -174,7 +153,12 @@ footer .sharky_shadow{
         width: 100%;
             /* border:3px solid  burlywood; */
     }
-    /***  sharky */
+}
+
+/*  SMALL and MEDIUM 0-778 */
+@media screen and  (max-width:777px) {
+    
+    /**+ sharky */
     footer .sharky {
         position: fixed;
         bottom: 55px;

@@ -126,7 +126,7 @@ header .form_body form label {
 header .form_body input[type=email],
 header .form_body input[type=password], select {
     width: 100%;
-    padding: 12px 20px;
+    padding: 12px 20px 12px 8px;
     margin: 5px 0;
     display: inline-block;
     border-radius: 5px;
@@ -166,9 +166,7 @@ header .form_body small a{
     color: rgb(0, 0, 238);
     text-decoration: underline;
 }
-/* .jumby_content, .header_top{
-    border: 2px solid red;
-} */
+
 /* ! RESPONSIVE */ 
 /* ! Il sito ha 3 misure :   */ 
 /* ! Small = 0-500px         */

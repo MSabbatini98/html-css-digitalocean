@@ -1,0 +1,72 @@
+header nav ul li:hover{
+    color: #006aff;
+}
+header .btn_sing_up:hover {
+    background-color:  #006aff;
+    color: white;
+    transition: 0.8s;
+}
+header .form_body input[type=submit]:hover{
+    border: 1px darkblue solid;
+}
+main #deploy .left_menu li:hover{
+    border-left: 4px solid #006aff;
+    font-weight: 500;
+    font-size: 110%;
+}
+main #deploy .left_menu a:hover {
+    color: #006aff;
+}
+main #designed .side_carousel_sx:hover,
+main #designed .side_carousel_dx:hover,
+main #development .side_carousel_sx:hover,
+main #development .side_carousel_dx:hover{
+    color: #031c4e;
+}
+main #services .single_line:hover{
+    font-size: 14px;
+    border-bottom: 3px solid white;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+
+/* ! RESPONSIVE */ 
+/* ! Il sito ha 3 misure :   */ 
+/* ! Small = 0-500px         */
+/* ! Medium = 501-777px      */
+/* ! Large = 778-2000px      */
+
+/*  SMALL and MEDIUM 0-778 */
+@media screen and  (max-width:777px) {
+    
+    /***  sharky */
+    footer .sharky {
+        position: fixed;
+        bottom: 55px;
+        left: 40px;
+            /* border: 3px dashed greenyellow; */
+    }
+    footer .baloon_tail {
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        top: -15px;
+        left: 10px;
+        transform: rotate(270deg);
+    }
+    footer .sharky_pic{
+        width: 80px;
+        float: none;
+        margin-bottom: 20px;
+    }
+    footer .shark_notification{
+        position: absolute;
+        bottom: 15px;
+        left: 60px;
+    }
+    footer .speech_baloon {
+        max-width: 65vw;
+    }
+}

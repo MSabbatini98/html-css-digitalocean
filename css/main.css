@@ -101,7 +101,7 @@ main #designed .side_carousel{
     font-size: 175%;
     top: 30%;
     bottom: 60%;
-    color: #031c4e;
+    color: #6f7b97;
         /* border:5px solid  rgb(30, 0, 255); */
 }
 main #designed p{
@@ -109,11 +109,9 @@ main #designed p{
 }
 main #designed .side_carousel_sx{
     left: 18%;
-    color: #031c4e;
 }
 main #designed .side_carousel_dx{
     right: 18%;
-    color: #031c4e;
 }
 main #development .carousel .carousel_dots,
 main #designed .carousel .carousel_dots{
@@ -232,11 +230,9 @@ main #development .development_content{
 }
 main #development .side_carousel_sx{
     left: 16%;
-    color: #031c4e;
 }
 main #development .side_carousel_dx{
     right: 16%;
-    color: #031c4e;
 }
 main #development .carousel_2_box{
     margin: auto;
